@@ -1,0 +1,1 @@
+setTimeout(deta, 1000)
