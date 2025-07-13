@@ -1,0 +1,54 @@
+Basic Level (Logic Building)
+✅ Reverse a string
+
+✅ Check for palindrome
+
+🔢 Find factorial using recursion
+
+📦 Count vowels in a string
+
+🪙 FizzBuzz
+
+🧠 Find the largest word in a sentence
+
+📐 Check if a number is prime
+
+🔁 Remove duplicates from an array
+
+Intermediate Level (Useful in Web Dev)
+🧼 Implement a custom trim() function
+
+🧪 Check if an object is empty
+
+🕵️‍♂️ Deep clone an object (without JSON)
+
+🔀 Shuffle an array
+
+⏲️ Debounce function (already given above)
+
+🧹 Throttle function
+
+🧮 Flatten a nested array
+
+🔁 Create your own map() or filter() function
+
+📆 Format a date to YYYY-MM-DD
+
+🛠️ Implement a currying function
+
+Advanced / Real-world Dev Tasks
+🏁 Memoize a function (caching results)
+
+⚙️ Create a custom EventEmitter class
+
+📡 Build a mini fetch() using Promises
+
+📍 Implement routing in a SPA without a framework
+
+💾 LocalStorage wrapper with expiry
+
+📲 Infinite scrolling logic (e.g., Twitter feed)
+
+👀 Observer pattern
+
+📦 Module pattern (IIFE)
