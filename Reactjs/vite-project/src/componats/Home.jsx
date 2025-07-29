@@ -1,19 +1,23 @@
-import React, { useState } from 'react'
+import React, { useRef } from 'react'
 
 function Home() {
+    //useRef
+    //Focussing on inpute box.
 
-    const [count, setCount] = useState(0);
-
-   
-
+    const inputRef = useRef();
+    const focusOnInput = () => {
+        // document.getElementById("name").focus();
+        inputRef.current.focus();
+    }
+ 
   return (
     <div>
-      <h1>Home Page!</h1>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-      <button onClick={() => setCount(count - 1)}>Decrement</button>
-      <h1>{count}</h1>
-    </div>
+      sign up
+      <input ref={inputRef} type="text" />
+      <input  id='name' type="text" />
+      <button onClick={focusOnInput}>submit</button>
+    </div> 
   )
-}
+} 
 
 export default Home
